@@ -1,0 +1,9 @@
+.list_icons{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  
+}
