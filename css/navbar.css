@@ -7,6 +7,7 @@
   align-items: center;
   
 }
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
@@ -15,3 +16,76 @@
   background-color: #FFFACD;
   height: 80px;
 }
+=======
+.nav_edit{
+  height: 90px;
+  background:#BFD9D7;
+  font-weight: 500;
+  color: #fff;
+}
+#img_logo{
+  width: 200px;
+}
+
+.btn-14 {
+  background: rgb(255,151,0);
+  border: none;
+  z-index: 1;
+}
+.btn-14:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 15px;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5)
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-14:hover {
+  color: #000;
+}
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn-14:active {
+  top: 2px;
+}
+
+#btn_size {
+  margin: 0px;
+  background: #DDEF3F;
+  color: #000;
+  font-weight: 900;
+  font-size: 12pt;
+  
+
+}
+.custom-btn {
+  width: 120px;
+  height: 40px;
+  color: #f4eded;
+  border-radius: 5px;
+  padding: 10px 25px;
+
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+>>>>>>> Stashed changes

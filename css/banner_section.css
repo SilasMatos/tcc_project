@@ -1,0 +1,13 @@
+#img_banner{
+  width: 200px;
+}
+#banner_sec .col-tex-sec-banner-edit{
+display: flex;
+align-items: center;
+
+
+}
+#banner_sec{
+  background-color: #BFD9D7;
+  clip-path: polygon(0 0, 100% 0%, 100% 84%, 0% 100%);
+}

@@ -1,11 +1,4 @@
 @import url(./carrosel.css);
 @import url(./navbar.css);
-
-@import url(./bookslide.sass);
-
-#sec_books{
-  margin-top: 5rem;
-}
-.text-herry{
-  margin-top: 20rem;
-}
+@import url(./banner_section.css);
+@import url(./all.css);
